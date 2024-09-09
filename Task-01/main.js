@@ -22,7 +22,7 @@ function drawRandomCircles() {
   for (let i = 0; i < 100; i++) {
     var x = getRandomInt(0, canvas.width);
     var y = getRandomInt(0, canvas.height);
-    var radius = getRandomInt(10, 40);
+    var radius = getRandomInt(10, 40); // create diffrent cyrcle size
 
     context.beginPath();
     context.arc(x, y, radius, 0, Math.PI * 2);
