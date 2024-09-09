@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Shadow</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    button {
+      padding: 10px 40px;
+      border: none;
+      cursor: pointer;
+      border-radius: 30px;
+      background-color: rgb(116, 116, 180);
+      border: 2px solid #0000ff;
+      transition: 1s linear all;
+    }
+    button:hover {
+      background-color: pink;
+      border: 2px solid rgb(116, 116, 180);
+      box-shadow: 3px 3px 10px 5px rgb(116, 116, 180);
+    }
+  </style>
+  <body>
+    <button type="button">Hovet To Blink</button>
+  </body>
+</html>

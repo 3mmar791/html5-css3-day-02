@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Circles with Canvas</title>
+    <style>
+      canvas {
+        border: 3px solid #ddd;
+        border-radius: 20px;
+      }
+
+      button {
+        border: none;
+        color: white;
+        padding: 10px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #0000ff;
+      }
+    </style>
+  </head>
+  <body>
+    <label for="circleColor">Select Circle Color: </label>
+    <input type="color" id="circleColor" name="circleColor" value="#0000ff" />
+
+    <button type="button" id="generateCirclesBtn">Click Me!</button>
+
+    <canvas id="myCanvas" width="800" height="600"></canvas>
+    <script src="./main.js"></script>
+  </body>
+</html>
